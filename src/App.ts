@@ -37,7 +37,7 @@ import Config from './common/Config';
   // await Author.scroll(page);
 
   // 关注页面中出现的优秀作者
-  // await Author.focus(page, true);
+  await Author.focus(page, true);
 
   // 收集当前页内所有的优秀作者信息
   const isLoaded = await Author.getUserMsg(page, browser);
