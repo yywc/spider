@@ -1,0 +1,44 @@
+{
+  "name": "spider",
+  "private": true,
+  "version": "1.0.0",
+  "description": "spider for juejin",
+  "main": "dist/App.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yywc/spider.git"
+  },
+  "scripts": {
+    "dev": "ts-node src/App.ts",
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "keywords": [
+    "puppeteer",
+    "typescript",
+    "node.js",
+    "spider"
+  ],
+  "author": {
+    "name": "yywc",
+    "email": "gyjyywc@gmail.com",
+    "url": "https://juejin.im/user/5b3a36de518825623b31e9d2"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^1.19.0"
+  },
+  "engines": {
+    "node": ">= 8.0.0",
+    "npm": ">= 5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.8",
+    "@types/puppeteer": "^1.19.0",
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "@typescript-eslint/parser": "^1.13.0",
+    "eslint": "^5.16.0",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}
