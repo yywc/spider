@@ -88,8 +88,9 @@ export default class Login {
         const success = await Login.init(page, result);
         if (success) {
           resolve([page, browser]);
+        } else {
+          await browser.close();
         }
-        await browser.close();
       });
       result = await InputConsole.inputUser();
     });
